@@ -1,0 +1,24 @@
+.contact a {
+    float: left;
+    display: block;
+    color: rgb(243, 244, 245);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    background-color: darkviolet;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(89, 14, 92);
+  }
+  
+  
+  

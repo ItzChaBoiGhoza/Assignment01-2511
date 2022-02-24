@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(89, 14, 92);
+  }
+
+.TopAnime a {
+    float: left;
+    display: block;
+    color: rgb(243, 244, 245);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.TopAnime a:hover {
+    background-color: darkviolet;
+    color: black;
+}
+
+
+#anime td, #anime th{
+    border: 1px solid rgb(124, 18, 89);
+    padding: 7px;
+}
+
+#anime tr:nth-child(even)
+{background-color: #f2f2f2;}
+
+#anime tr:hover {background-color: #ddd;}
+
+#anime th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: purple;
+    color: white;
+}
+
+#anime {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h3 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: purple;
+}
+
+p {
+    font-size: 10pt;
+    font-weight: bold;
+    color: rgb(53, 50, 50);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+

@@ -47,18 +47,29 @@ ul {
 
 h3 {
     font-size: 18pt;
-    font-weight: bold;
+    font-weight: bolder;
     color: purple;
+    float: left;
+}
+
+h4 {
+    float: right;
 }
 
 p {
-    font-size: 10pt;
+    font-size: 12pt;
     font-weight: bold;
     color: rgb(53, 50, 50);
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.date {
+    font-size: 10pt;
+    font-weight: bold;
+    color: rgb(109, 106, 106);
 }
 
 

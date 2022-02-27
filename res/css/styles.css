@@ -57,7 +57,7 @@ h2 {
 }
 
 .new-article {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .pic-column {
@@ -93,7 +93,7 @@ p::first-letter {
 }
 
 .footer {
-    color: #fff;
+    color: #fff; 
 }
 
 

@@ -13,9 +13,6 @@ header {
     text-align: center;
 }
 
-
-
-
 .btn {
     background-color: #ffa500;
     padding: 15px 15px;
@@ -47,6 +44,53 @@ header {
     border: 2px solid #ffa500;
 }
 
+.container {
+    position: absolute;
+    left: 30%;
+}
+
+h2 {
+    color: white;
+    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.new-article {
+    margin-top: 50px;
+}
+
+.pic-column {
+    float: left;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+figcaption {
+    color: white;
+}
+
+.news-detail {
+    width: 35%;
+    margin-left: 20%;
+    height: 200px;
+    color: white;
+    background-color: rgba(161, 161, 161, 0.616);
+    padding: 50px 25px 0px 25px;
+    font-size: 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
 
 
 

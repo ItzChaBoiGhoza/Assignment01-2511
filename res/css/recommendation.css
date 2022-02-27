@@ -1,3 +1,7 @@
+html {
+    background-color: lightgray;
+}
+
 header {
     height: 15vh;
 }
@@ -47,19 +51,39 @@ header {
     border-bottom: 2px solid darkviolet;
 }
 
-.contact a {
-    float: left;
-    display: block;
-    color: rgb(243, 244, 245);
+.rec {
     text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
 }
 
-.contact a:hover {
-    background-color: darkviolet;
-    color: black;
+.rec h3 {
+    font-size: 45px;
 }
-  
-  
-  
+
+table, th, td {
+    border: 1px solid black;
+    width: 40%;
+    background-color: #fff;
+}
+
+th {
+    font-size: 25px;
+    background-color: darkviolet;
+    color: #fff;
+}
+
+tr {
+    font-size: 20px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+a[href^="https"] {
+    color: orange;
+}

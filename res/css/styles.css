@@ -1,16 +1,16 @@
 * {
-    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-header {
+
+body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg);   
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
     text-align: center;
+    background-repeat: repeat;
 }
 
 .btn {
@@ -76,7 +76,7 @@ figcaption {
 .news-detail {
     width: 35%;
     margin-left: 20%;
-    height: 200px;
+    height: 260px;
     color: white;
     background-color: rgba(161, 161, 161, 0.616);
     padding: 50px 25px 0px 25px;
@@ -92,6 +92,9 @@ p::first-letter {
     font-size: 50px;
 }
 
+.footer {
+    color: #fff;
+}
 
 
 

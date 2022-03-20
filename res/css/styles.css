@@ -51,7 +51,7 @@ header {
 
 h2 {
     color: white;
-    margin-top: 100px;
+    margin-top: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -76,10 +76,10 @@ figcaption {
 .news-detail {
     width: 35%;
     margin-left: 20%;
-    height: 200px;
+    height: 250px;
     color: white;
     background-color: rgba(161, 161, 161, 0.616);
-    padding: 50px 25px 0px 25px;
+    padding: 25px 25px 0px 25px;
     font-size: 25px;
     border-radius: 25px;
     -webkit-border-radius: 25px;
@@ -92,7 +92,108 @@ p::first-letter {
     font-size: 50px;
 }
 
+footer { text-align: center; }
 
+footer p::first-letter { font-size: 15px;}
 
+/*--------------------------------------------------------------------------*/
+/*---------------------------   Assignment 2   -----------------------------*/
+/*--------------------------------------------------------------------------*/
 
+/*---------- Mobile devices ----------*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    header { height: 95vh; }
 
+    .logo {
+        height: 250px;
+        width: 250px; 
+    }
+
+    .main-nav li {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .container, h2 { visibility: hidden; }
+}
+
+/*---------- iPads/Tablets ----------*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    header { height: 95vh; }
+
+    .logo {
+        height: 250px;
+        width: 250px; 
+    }
+
+    .main-nav li {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .container, h2 { visibility: hidden; }
+}
+
+/*---------- Small screens, Laptops ----------*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header { height: 95vh; }
+
+    .logo {
+        height: 250px;
+        width: 250px; 
+    }
+
+    h2 { margin-top: 50px; }
+
+    #article-1 {
+        margin-top: 25px;
+    }
+
+    #pic-1 {
+        height: 200px;
+        width: 250px;
+    }
+
+    .news-detail { 
+        font-size: 15px; 
+        height: 200px;
+    }
+
+    p::first-letter {
+        font-size: 15px;
+    }
+
+    #article-2 { visibility: hidden;}
+}
+
+/*---------- Deskstops, Large screens ----------*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    header { height: 95vh; }
+
+    .logo {
+        height: 250px;
+        width: 250px; 
+    }
+
+    h2 { margin-top: 50px; }
+
+    #article-1 {
+        margin-top: 25px;
+    }
+
+    #pic-1 {
+        height: 200px;
+        width: 250px;
+    }
+
+    .news-detail { 
+        font-size: 20px; 
+        height: 250px;
+    }
+
+    p::first-letter {
+        font-size: 20px;
+    }
+
+    #article-2 { visibility: hidden;}
+}

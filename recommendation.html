@@ -5,26 +5,27 @@
         <meta name="keywords" content="Recommendation Anime">
         <meta name="description" content="Recommendation Anime">
         <meta name="Author" content="Denzel Pascual and Ghoza Ghazali">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>Anime Recommendation</title>
         <link rel="stylesheet" href="res/css/recommendation.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <div class="row">
-                    <img src="res/img/AnimeWonderLandLogo.png" alt="Logo" class="logo">
-                    <ul class="main-nav">
-                        <li>
-                            <a class="btn" href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a class="btn" href="Top10Anime.html">Ratings</a>
-                        </li>
-                        <li>
-                            <a class="btn" href="Contact_Us.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
+        <header class="header">
+            <!-- Logo -->
+            <a href="#"><img src="res/img/AnimeWonderLandLogo.png" alt="Logo" class="logo"></a>
+            
+            <!-- Hamburder icon -->
+            <input type="checkbox" id="side-menu" class="side-menu">
+            <label for="side-menu" class="hamburger"><span class="hamburger-line"></span></label>
+
+            <!-- Menu -->
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a class="btn" href="index.html">Home</a></li>
+                    <li><a class="btn" href="recommendation.html">Top Recommendation</a></li>
+                    <li><a class="btn" href="Top10Anime.html">Ratings</a></li>
+                    <li><a class="btn" href="Contact_Us.html">Contact Us</a></li>
+                </ul>
             </nav>
         </header>
         <section class="rec">
@@ -38,7 +39,7 @@
                 </tr>
                 
                 <tr>
-                    <td rowspan="2"><img src="res/img/Kono_oto_tomare.jpg" alt="Poster of Kono oto tomare" height="200"></td>
+                    <td rowspan="2"><img src="res/img/Kono_oto_tomare.jpg" alt="Poster of Kono oto tomare" height="200" class="table-img"></td>
                     <td>Kono Oto Tomare! Sounds of Life</td>
                     <td>April 6, 2019</td>
                 </tr>

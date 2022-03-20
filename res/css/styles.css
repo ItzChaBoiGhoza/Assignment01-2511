@@ -1,16 +1,16 @@
 * {
-    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-header {
+
+body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg);   
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
     text-align: center;
+    background-repeat: repeat;
 }
 
 .btn {
@@ -57,7 +57,7 @@ h2 {
 }
 
 .new-article {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .pic-column {

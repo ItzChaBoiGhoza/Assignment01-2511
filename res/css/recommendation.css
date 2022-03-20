@@ -161,7 +161,7 @@ a[href^="https"] {
     -o-transform: rotate(45deg);
 }
 
-@media (min-width: 480px) {
+@media (min-width: 768px) {
    .nav {
        max-height: none;
        top: 0;

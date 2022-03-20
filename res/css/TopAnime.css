@@ -1,59 +1,129 @@
-header {
-    height: 15vh;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.row {
-    max-width: 1140px;
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg);  
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    font-size: 1.5rem;
+}
+
+/*Typography*/
+
+h1{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+/*Table*/
+
+.rank {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: white;
+}
+
+.columns {
+    display: block;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 700px) {
+    table thead{display: none;}
+    table tbody, table tbody tr{display: block; width: 100%;}
+    table tbody tr th::before table tbody tr td::before{content: attr(data-title); display: block;}
+    table tbody tr td{display: block; width: 50%; float: left;}
+    table tbody tr th{display: block; width: 50%; float: left;}
+    table tbody tr{margin-bottom: 16px;}
+}
+
+/*Navigation*/
+
+img {
+    max-width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
-.main-nav {
-    float: right;
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+}
+
+header {
+    background: rgb(133, 22, 133);
+    padding: 2em 0;
+}
+
+@media (max-width: 675px) {
+    header {
+        text-align: center;
+    }
+}
+
+nav ul{
     list-style: none;
-    margin-top: 55px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-.main-nav li {
-    display: inline-block;
-    margin-left: 25px;
-    font-size: 25px;
+nav li {
+    margin-left: 2em; 
 }
 
-.logo {
-    float: left;
-    width: auto;
-    height: 150px;
-    padding-top: 20px;
-}
-
-.main-nav li a:link, 
-.main-nav li a:visited {
-    color: #000;
+nav a {
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 100%;
-    font-weight: 400;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
-    -webkit-transition: border-bottom 0.2s;
-    -moz-transition: border-bottom 0.2s;
-    -ms-transition: border-bottom 0.2s;
-    -o-transition: border-bottom 0.2s;
-    padding: 8px 0;
+    font-weight: 900;
+    color: #fff;
+    padding: .25em 0; /*.25 = top and bottom, 0 = left and right*/
 }
 
-.main-nav li a:active, 
-.main-nav li a:hover {
-    border-bottom: 2px solid darkviolet;
+.nav a:active,
+.nav a:hover {
+    border-bottom: 3px solid black;
 }
 
-.center {
-    text-align: center;
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: .5em 0;
+    }
 }
+
+
+
+
+
+
+
+
+
 
 #anime td, #anime th{
     border: 1px solid rgb(124, 18, 89);
-    padding: 7px;
+    padding: 15px;
 }
 
 #anime tr:nth-child(even)
@@ -70,7 +140,7 @@ header {
 }
 
 #anime {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     border-collapse: collapse;
     width: 100%;
 }
@@ -96,12 +166,22 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.date {
-    font-size: 10pt;
-    font-weight: bold;
-    color: rgb(109, 106, 106);
+
+
+footer {
+    background: rgb(133, 22, 133);
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 30%;
+    padding: 1em;
+    margin-top: 30px;
 }
 
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+}
 
-
-
+.name {
+    font-family: 'Times New Roman', Times, serif;
+}
